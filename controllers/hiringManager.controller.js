@@ -1,5 +1,4 @@
 const jwt = require('jsonwebtoken');
-const Job = require('../models/Job.model');
 const { hiringManagerJobsService, hiringManagerJobByIdService } = require('../services/hiringManager.service');
 
 exports.hiringManagerJobs = async (req, res) => {

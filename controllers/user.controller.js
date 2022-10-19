@@ -2,7 +2,6 @@ const errorFormatter = require("../middleware/errorFormatter");
 const Admin = require("../models/Admin.model");
 const Candidate = require("../models/Candidate.model");
 const HiringManager = require("../models/HiringManager.model");
-const jwt = require('jsonwebtoken');
 const { signupService, findUserByEmail } = require("../services/user.service");
 const { generateToken } = require("../utils/token");
 
